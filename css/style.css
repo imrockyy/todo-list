@@ -1,0 +1,67 @@
+body {
+  font-family: lato,sans-serif;
+    background: white;
+    color: #333333;
+  }
+  .btn-red {
+    border-color: red;
+    background: transparent;
+    color:red;
+  }
+  .btn-red:hover {
+    background: rgba(255, 0, 0, 0.521);
+    color: black;
+  }
+  .btn-green {
+    border-color: green;
+    background: transparent;
+    color: green;
+  }
+  .btn-green:hover {
+    background: rgba(0, 128, 0, 0.514);
+    color: black;
+  }
+  .form-control {
+    border-color:teal !important;
+  }
+  
+  .feedback {
+    display: none;
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .item-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .complete-item {
+    color: rgba(0, 128, 0, 0.527);
+  }
+  .complete-item:hover {
+    color: green;
+  }
+  .edit-item {
+    color: rgba(0, 0, 255, 0.527);
+  }
+  .edit-item:hover {
+    color: blue;
+  }
+  .delete-item {
+    color: rgba(255, 0, 0, 0.527);
+  }
+  .delete-item:hover {
+    color: red;
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  .visibility {
+    opacity: 0.5;
+  }
+  .showItem {
+    display: block;
+  }
+  
